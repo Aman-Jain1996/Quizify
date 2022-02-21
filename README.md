@@ -1,2 +1,3 @@
 # Quizify
-Quizify is a quiz app
+Quizify is a quiz app that is built using Tailwind CSS
+

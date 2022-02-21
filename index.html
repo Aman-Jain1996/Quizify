@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A fun quiz app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon.webp" type="image/x-icon">
+
+    <!-- Nunito Sans Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Quizify</title>
+</head>
+<body>
+    <header class="min-h-max h-24 py-12 px-24 flex text-stone-800 items-center justify-between font-bold text-4xl w-full bg-violet-300">
+        <span class="text-5xl cursor-pointer">Quizify</span>
+        <div class=" basis-1/5 flex gap-8 justify-evenly text-3xl">
+            <div class="cursor-pointer rounded-lg bg-[#fff] px-4 py-2 hover:scale-110 hover:opacity-90" aria-label="button"><a href="#">Login</a></div>
+            <div class="cursor-pointer rounded-lg bg-[#fff] px-4 py-2 hover:scale-110 hover:opacity-90" aria-label="button"><a href="#">Profile</a></div>
+        </div>    
+    </header>
+    <main>
+        <div class="flex m-12 items-center h-[70vh]">
+            <div class="mt-36 basis-2/4 p-12 flex flex-col justify-evenly">
+                <p class="text-5xl font-bold max-w-[80%] m-auto leading-normal">Are you a Football Fan?</p>
+                <p class="my-12 mx-auto max-w-[60%] text-2xl">If you are a die hard fan of football just like me, be ready to test your knowledge and showcase it to your friends. It will only take 5 mins of your time to take up the quiz </p>
+                <div class="cursor-pointer rounded-lg bg-violet-300 p-4 w-[60%] text-3xl font-bold text-center my-12 mx-auto hover:bg-violet-500 hover:text-white" aria-label="button"><a href="#">Start Quizzing</a></div>
+            </div> 
+            <div class="basis-2/4 w-full h-full">
+                <img class="w-full h-full" src="./assets/hero.svg" alt="Hero Image">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

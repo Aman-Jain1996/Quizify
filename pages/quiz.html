@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A fun quiz app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon.webp" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Quizify | UEFA Champions League Quiz </title>
+</head>
+<body>
+    <header class="min-h-max h-24 py-12 px-24 flex text-stone-800 items-center justify-between font-bold text-4xl w-full bg-violet-300">
+        <span class="text-5xl cursor-pointer"><a href="../index.html">Quizify</a></span>
+        <div class=" basis-1/5 flex gap-8 justify-evenly text-3xl">
+            <div class="cursor-pointer rounded-lg bg-[#fff] px-4 py-2 hover:scale-110 hover:opacity-90" aria-label="button"><a href="#">Profile</a></div>
+            <div class="cursor-pointer rounded-lg bg-[#fff] px-4 py-2 hover:scale-110 hover:opacity-90" aria-label="button"><a href="#">Logout</a></div>
+        </div>    
+    </header>
+    <main class="mt-12 p-12 flex flex-col min-h-[70vh]">
+        <div class="flex justify-center text-5xl font-bold">
+            <h2 class="pb-8 border-b-4 rounded-md border-violet-600 w-2/5 text-center">UEFA Champions League Quiz</h2>
+        </div>
+
+        <div class="my-12 w-3/5 py-4 px-8 mx-auto shadow-[0px_0px_5px_0px_rgba(0,0,0,.2)] rounded-xl">
+            <p class=" flex items-center text-2xl pl-8 m-8 font-semibold">Question :<span class="font-bold ml-2 text-3xl text-violet-800" >1/10</span></p>
+            <div class="pl-8 m-8">
+                <p class="text-3xl font-bold mt-16">
+                    <span class="mr-2 text-violet-800" >Q.1</span>
+                    Which team has won the UEFA Champions League title most number of times?
+                </p>
+            </div>
+
+            <ul class="my-12 mx-auto">
+                <li class="font-semibold mx-12 my-8 h-24 bg-violet-200 rounded-lg border-l-8 px-4 py-4 border-violet-700">
+                    <label class="h-full flex items-center" for="option-1">
+                        <input class="w-10 h-10 mr-8 checked:bg-violet-400" type="radio" name="options" id="option-1">
+                        <p class="text-3xl">AC Milan</p>
+                    </label>
+                </li>
+                <li class="font-semibold mx-12 my-8 h-24 bg-violet-200 rounded-lg border-l-8 px-4 py-4 border-violet-700">
+                    <label class="h-full flex items-center" for="option-2">
+                        <input class="w-10 h-10 mr-8 checked:bg-violet-400" type="radio" name="options" id="option-2">
+                        <p class="text-3xl">FC Barcelona</p>
+                    </label>
+                </li>
+                <li class="font-semibold mx-12 my-8 h-24 bg-violet-200 rounded-lg border-l-8 px-4 py-4 border-violet-700">
+                    <label class="h-full flex items-center" for="option-3">
+                        <input class="w-10 h-10 mr-8 checked:bg-violet-400" type="radio" name="options" id="option-3">
+                        <p class="text-3xl">Real Madrid</p>
+                    </label>
+                </li>
+                <li class="font-semibold mx-12 my-8 h-24 bg-violet-200 rounded-lg border-l-8 px-4 py-4 border-violet-700">
+                    <label class="h-full flex items-center" for="option-4">
+                        <input class="w-10 h-10 mr-8 checked:bg-violet-400" type="radio" name="options" id="option-4">
+                        <p class="text-3xl">Liverpool FC</p>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="flex justify-between my-12 w-3/5 py-4 px-8 mx-auto text-3xl font-semibold">
+                <div class="w-[20%] hover:scale-110">
+                    <a class="bg-violet-100 p-4 flex items-center justify-evenly hover:rounded-lg hover:bg-violet-300" href="./category.html">
+                        <ion-icon class="text-5xl" name="chevron-back-circle-outline"></ion-icon>
+                        Previous
+                    </a>
+                </div>
+                <div class="w-[20%] hover:scale-110">
+                    <a class="bg-violet-100 p-4 flex items-center justify-evenly hover:rounded-lg hover:bg-violet-300" href="result.html">
+                        Next
+                        <ion-icon class="text-5xl" name="chevron-forward-circle-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
